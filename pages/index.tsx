@@ -6,7 +6,11 @@ const Home: React.FC = () => {
   return (
     <Container>
       <Meta />
-      <Header />
+      <Header children={[
+        {name: 'career opportunities', url: '/careers'},
+        {name: 'partners', url: '/partners'},
+        {name: 'about', url: '/about'}
+        ]} />
       <Main />
       <Cards />
       <Footer />
