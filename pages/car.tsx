@@ -7,7 +7,7 @@ const Car: React.FC = () => {
     
     <Container>
       <Meta title="car" />
-      <Header />
+      {/* <Header /> */}
       <Main />
       <Cards />
       <Footer />
