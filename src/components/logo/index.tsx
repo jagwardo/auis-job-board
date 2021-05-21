@@ -6,11 +6,10 @@ export const Logo: React.FC = () => {
     <a href="/">
       <Image
         data-test="icon"
-        src="/icons/brand-logo.png"
+        src="/icons/brand-logo-mobile.png"
         alt="logo"
-        width="250"
-        height="38"
-        className="hidden sm:block"
+        width="50"
+        height="46"
       />
       {/* <Image
         data-test="icon"

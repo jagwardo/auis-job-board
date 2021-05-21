@@ -9,7 +9,7 @@ export const Main: React.FC = () => {
         <h1 data-test="main-heading" className="text-5xl lg:text-8xl mb-5">
           AUIS Job Board
         </h1>
-        <p className="text-lg mb-5 px-5">
+        {/* <p className="text-lg mb-5 px-5">
           An exciting opportunity for companies and organizations to reach in-demand job candidates, but also a chance for AUIS students and alumni to connect with employers around Iraq, the Kurdistan Region, the wider Middle East, and beyond.
         </p>
         <div className="flex gap-5 justify-center">
@@ -31,7 +31,7 @@ export const Main: React.FC = () => {
               Read More
             </a>
           </Button>
-        </div>
+        </div> */}
 
       </div>
     </div>
