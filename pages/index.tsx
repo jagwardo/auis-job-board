@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Container, Header, Main, Footer, Cards, Meta } from "@components";
-import { Panel } from "@components/panel";
+import { Search } from "@components/filter";
 const Home: React.FC = () => {
   return (
     <Container>
@@ -12,10 +12,8 @@ const Home: React.FC = () => {
         {name: 'about', url: '/about'}
         ]} />
       <Main />
-      <div className="flex justify-between">
-        <Panel />
-        <Cards />
-      </div>
+      <Search />
+      <Cards />
       <Footer />
     </Container>
   );
