@@ -1,7 +1,7 @@
 import React from "react";
 
-import { Container, Header, Main, Footer, Cards, Meta } from "@components";
-import { Search } from "@components/filter";
+import { Container, Header, Main, Footer, Cards, Meta, Search, Panel } from "@components";
+
 const Home: React.FC = () => {
   return (
     <Container>
@@ -13,7 +13,10 @@ const Home: React.FC = () => {
         ]} />
       <Main />
       <Search />
-      <Cards />
+      <div className="grid lg:flex lg:px-10 my-8 gap-10">
+        <Panel />
+        <Cards className="lg-flex-2" />
+      </div>
       <Footer />
     </Container>
   );

@@ -1,11 +1,15 @@
 import React from "react";
-
 import data from "@public/meta.json";
 import { JobCard } from "./job-card";
 
-export const Cards: React.FC = () => {
+type IDiv = React.DetailedHTMLProps<
+  React.HtmlHTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+>;
+
+export const Cards: React.FC<IDiv> = ({className=""}) => {
   return (
-    <div className="flex-1 container my-8 max-w-screen-lg mx-auto p-5">
+    <div className={`container max-w-screen-lg mx-auto px-5 ${className}`}>
       <div className="mb-5">
         <h1 className="text-3xl font-bold text-gray-700">Showing {data?.jobs?.length} Jobs</h1>
       </div>
