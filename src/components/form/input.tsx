@@ -12,7 +12,7 @@ const Input: React.FC<IInput> = ({
     placeholder=""
 }) => {
     return (
-        <input className={`flex-grow p-5 focus:outline-none rounded ${{className}}`} placeholder={placeholder} />
+        <input className={`p-5 focus:outline-none ${className}`} placeholder={placeholder} />
     )
 }
 

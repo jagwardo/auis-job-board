@@ -7,7 +7,7 @@ type IDiv = React.DetailedHTMLProps<
 
 const Panel : React.FC<IDiv> = ({className=""}) => {
     return (
-        <div className={`flex-1 bg-transparent px-4 lg:px-0 ${className}`}>
+        <div className={`flex-1 bg-transparent px-5 ${className}`}>
             <div className="grid gap-7">
                 <div className="">
                     <h1 className="text-lg font-bold text-gray-700 mb-5">Type of Employment</h1>

@@ -17,7 +17,7 @@ export const Button: React.FC<IButton> = ({
 }) => {
   return (
     <button
-      className={`py-2 px-4 rounded ring-opacity-75 ring-green-400 ${className}`}
+      className={`py-2 px-4 ring-opacity-75 ring-green-400 ${className}`}
       {...rest}
     >
       {children}

@@ -11,9 +11,9 @@ const Home: React.FC = () => {
         {name: 'Company Review', url: '/company-review'},
         {name: 'about', url: '/about'}
         ]} />
-      <Main />
+      {/* <Main /> */}
       <Search />
-      <div className="grid lg:flex lg:px-10 my-8 gap-10">
+      <div className="grid lg:flex lg:px-10 my-8 gap-5">
         <Panel />
         <Cards className="lg-flex-2" />
       </div>
