@@ -6,7 +6,10 @@ module.exports = {
       colors: {
         primary: '#172b54',
         secondary: '#c99700'
-      }
+      },
+      backgroundImage: (theme) => ({
+        'landing-texture': "url('/icons/landing-bg.png')",
+      })
     },
   },
   variants: {

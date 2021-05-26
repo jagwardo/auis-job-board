@@ -11,7 +11,7 @@ export const JobCard = ({ job }) => {
   return (
     <div
       key={job.title}
-      className="col-span-1 rounded-md bg-white p-7"
+      className="col-span-1 rounded-md bg-white p-7 shadow-sm"
     >
       <div className="flex gap-5 justify-between mb-3">
           <a className="flex-grow" target="_blank" data-test="docs-btn-anchor" href="https://pankod.github.io/superplate/">

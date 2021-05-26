@@ -4,9 +4,9 @@ import { Logo } from "@components";
 
 export const Header = ({ children }) => {
   return (
-    <div className="text-center bg-white shadow">
+    <div className="text-center bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-        <div className="relative flex items-center justify-between h-20">
+        <div className="relative flex items-center justify-between">
           <Logo />
           <div className="hidden sm:block sm:ml-6">
             <div className="flex space-x-4">

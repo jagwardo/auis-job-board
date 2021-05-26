@@ -9,10 +9,11 @@ const Input: React.FC<IInput> = ({
     id="",
     name="",
     className="",
-    placeholder=""
+    placeholder="",
+    type="text"
 }) => {
     return (
-        <input className={`p-5 focus:outline-none ${className}`} placeholder={placeholder} />
+        <input className={`p-5 focus:outline-none ${className}`} name={name} type={type} placeholder={placeholder} />
     )
 }
 
