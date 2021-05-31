@@ -11,7 +11,7 @@ export const Cards: React.FC<IDiv> = ({className=""}) => {
   return (
     <div className={`container max-w-screen-lg mx-auto px-5 ${className}`}>
       <div className="mb-5">
-        <h1 className="text-3xl font-bold text-gray-700">Showing {data?.jobs?.length} Jobs</h1>
+        <h2 className="text-2xl font-bold text-gray-700">Showing {data?.jobs?.length} Jobs</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
         {(data?.jobs ?? []).map((job) => (

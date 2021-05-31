@@ -1,0 +1,35 @@
+{
+    "name": "Partner Companies",
+    "companies": [
+        {
+            "name": "Lafarge",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "website": "https://www.lafarge.fr/",
+            "logo": "https://www.lafarge.fr/sites/lafarge.fr/files/thumbnails/image/logobignewtheme.png"
+        },
+        {
+            "name": "Vim Foundation",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "website": "https://vimfoundation.krd/",
+            "logo": "https://vimfoundation.krd/wp-content/uploads/2020/10/vim_foundation_logo-1.png"
+        },
+        {
+            "name": "Gazprom",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "website": "https://www.gazprom.com/",
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Gazprom-Logo.svg/1200px-Gazprom-Logo.svg.png"
+        },
+        {
+            "name": "Schlumberger",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "website": "https://www.slb.com/",
+            "logo": "https://mms.businesswire.com/media/20160504006324/fr/70213/22/bluelogo.jpg"
+        },
+        {
+            "name": "Chemonics",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "website": "https://chemonics.com/",
+            "logo": "https://chemonics.com/wp-content/uploads/2017/10/chemonics_logo.png"
+        }
+    ]
+  }  

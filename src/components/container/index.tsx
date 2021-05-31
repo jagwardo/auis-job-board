@@ -4,5 +4,5 @@ type IDiv = React.DetailedHTMLProps<
 >;
 
 export const Container: React.FC<IDiv> = ({ children, className }) => {
-  return <div className={`min-h-screen flex flex-col bg-gray-50 ${className}`}>{children}</div>;
+  return <div className={`min-h-screen flex flex-col bg-gray-100 ${className}`}>{children}</div>;
 };

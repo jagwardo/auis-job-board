@@ -6,5 +6,5 @@ export { Button } from "./button";
 export { Cards } from "./cards";
 export { Footer } from "./footer";
 export { Container } from "./container";
-export { Search, Panel } from "./filter";
+export { JobSearch, JobPanel, CompanySearch } from "./filter";
 export { LoginScreen } from "./login";
